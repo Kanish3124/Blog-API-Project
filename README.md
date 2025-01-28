@@ -44,16 +44,14 @@ A full-stack application that allows users to create, view, edit, and delete blo
 2. Install dependencies for both servers:
 
    ```bash
-   cd api-server
-   npm install
-   cd ../frontend-server
+   cd <project_directory>
    npm install
    ```
 
 3. Start the API Server:
 
    ```bash
-   cd api-server
+   cd <project_directory>
    node index.js
    ```
 
@@ -62,7 +60,7 @@ A full-stack application that allows users to create, view, edit, and delete blo
 4. Start the Frontend Server:
 
    ```bash
-   cd frontend-server
+   cd <project_directory>
    node server.js
    ```
 
